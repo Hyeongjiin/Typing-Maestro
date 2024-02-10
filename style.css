@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 7fr 6fr;
+  grid-template-columns: 2fr 5fr 2fr;
+  height: 100vh;
+  background-color: rgba(238, 235, 226, 0.7);
+}
+
+.title {
+  background-color: yellow;
+}
+
+.eader {
+  background-color: blue;
+}
+
+.empty {
+  background-color: red;
+}
+
+.progress {
+  background-color: aqua;
+}
+
+.content {
+  background-color: blueviolet;
+}
+
+.keyboard {
+  background-color: brown;
+}
+
+.left-hand {
+  background-color: orange;
+}
+
+.right-hand {
+  background-color: white;
+}
+
