@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2vw;
 }
 
 
@@ -144,4 +145,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hand img {
+  width: 12vw;
 }
