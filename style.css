@@ -30,7 +30,7 @@ body {
   border-radius: 15px;
 }
 
-.header_sbar_icons {
+.header_bar_icons {
   display: flex;
   justify-self: center;
   align-items: center;
@@ -38,6 +38,7 @@ body {
 
 .header_bar_icon {
   color: white;
+  font-size: 2.3vh
 }
 
 
@@ -51,7 +52,7 @@ body {
 .progress_status {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2.5vh;
 }
 
 .content {
@@ -70,7 +71,7 @@ body {
 .content_editor_codes {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 2vh
 }
 
 .keyboard {
@@ -121,7 +122,7 @@ body {
 }
 
 .key {
-  font-size: 15px;
+  font-size: 0.7vw;
   font-weight: bold;
   color: rgba(153, 148, 127, 1);
   border: 2px solid rgba(153, 148, 127, 1);
