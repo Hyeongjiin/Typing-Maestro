@@ -70,11 +70,11 @@ body {
   box-sizing: border-box;
 }
 
-/* .content_editor .input_field {
+.content_editor .input_field {
   z-index: -999;
   opacity: 0;
   position: absolute;
-} */
+}
 
 .content_editor_codes {
   max-height: 40vh;
