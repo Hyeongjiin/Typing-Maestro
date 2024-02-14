@@ -14,6 +14,7 @@ let mistypedChar = 0;
 
 function randomContent () {
     let randomIdx = Math.floor(Math.random() * contents.length);
+    $typingContent.innerHTML = '';
     let contentSpans = contents[randomIdx].split('').map(element => `<span>${element}</span>`).join('');
     $typingContent.innerHTML = contentSpans;
     $typingContent.addEventListener('click', () => $inputField.focus());
@@ -59,6 +60,7 @@ function typing() {
         $accuracy.innerText = `${acc}%`;
         $wordPerMin.innerText = wpm;
     } else {
+        $inputField.value = '';
         clearInterval(timer);
     }
 
@@ -73,10 +75,10 @@ function resetTyping() {
     randomContent();
     $inputField.value = '';
     clearInterval(timer);
-    let time = 0;
-    let isTyping = false;
-    let charIdx = 0;
-    let mistypedChar = 0;
+    time = 0;
+    isTyping = false;
+    charIdx = 0;
+    mistypedChar = 0;
     $time.innerText = '-';
     $accuracy.innerText = '-';
     $wordPerMin.innerText = '-';
