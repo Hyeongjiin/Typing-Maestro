@@ -27,7 +27,7 @@
             <i class="header_bar_icon fa-solid fa-play"></i>
           </div>
           <div class="header_bar_icons">
-            <i class="header_bar_icon fa-solid fa-rotate"></i>
+            <i class="header_bar_icon fa-solid fa-rotate rotate"></i>
           </div>
         </div>
     </div>
@@ -35,28 +35,23 @@
     </div>
     <div class="progress">
         <div class="progress_status progress_time">
-          <div>Time</div>
-          <div>5:32</div>
-        </div>
-        <div class="progress_status progress_WPM">
-          <div>ACC</div>
-          <div>99%</div>
+          <p>Time</p>
+          <span>-</span>
         </div>
         <div class="progress_status progress_ACC">
-          <div>WPM</div>
-          <div>352</div>
+          <p>ACC</p>
+          <span>-</span>
+        </div>
+        <div class="progress_status progress_WPM">
+          <p>WPM</p>
+          <span>-</span>
         </div>
     </div>
     <div class="content">
       <div class="content_editor">
+        <input type="text" class="input_field">
         <div class="content_editor_codes">
-          <span>// if you start to type, timer starts</span><br>
-          <span>1 const $optionsPage = document.querySelector('#optionsPage');</span><br>
-          <span>2 const $blockStatus = document.querySelector('#blockStatus');</span><br>
-          <span>3 $optionsPage.addEventListener('click', () => {</span><br>
-          <span>4   chrome.runtime.openOptionsPage();</span><br>
-          <span>5 })</span><br>
-          <span>6</span><br>
+          <p></p>
         </div>
       </div>
     </div>
@@ -204,6 +199,8 @@
     <div class="hand right-hand">
         <img src="/images/right_hand.png" alt="right-hand">
     </div>
+    <script src="paragraphs.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 
