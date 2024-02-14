@@ -8,6 +8,7 @@ const $rotate = document.querySelector('i.rotate');
 let timer;
 let time = 0;
 let isTyping = false;
+let currentChar = '';
 let charIdx = 0;
 let mistypedChar = 0;
 
@@ -24,6 +25,7 @@ function typing() {
     const characters = $typingContent.querySelectorAll('span');
     let typedChar = $inputField.value.split('')[charIdx];
     if (charIdx <= characters.length) {
+        currentChar = characters[charIdx];
         if (!isTyping) {
             timer = setInterval(startTimer, 1000);
             isTyping = true;
