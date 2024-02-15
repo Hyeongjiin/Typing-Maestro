@@ -1,3 +1,9 @@
+import './style.css'
+import './reset.css'
+import { contents } from './paragraphs.js'
+
+
+console.log(contents);
 const $typingContent = document.querySelector('.content_editor_codes p');
 const $inputField = document.querySelector('.input_field');
 const $time = document.querySelector('.progress_time span');
