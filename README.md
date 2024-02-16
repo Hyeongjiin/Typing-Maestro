@@ -6,7 +6,7 @@
   <h1>Typing Maestro</h1>
   <br />
   
-  [**🔗 배포된 웹 서비스로 바로가기 Click !**](https://typing-maestro.netlify.app/) 👈
+  [** 배포된 웹 서비스로 바로가기 **](https://typing-maestro.netlify.app/) 👈
 </div>
 
 ## 목차
